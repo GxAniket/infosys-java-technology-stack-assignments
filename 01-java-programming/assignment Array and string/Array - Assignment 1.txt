@@ -1,0 +1,61 @@
+class Teacher {
+
+    private String teacherName;
+    private String subject;
+    private double salary;
+
+    // Constructor
+    public Teacher(String teacherName, String subject, double salary) {
+        this.teacherName = teacherName;
+        this.subject = subject;
+        this.salary = salary;
+    }
+
+    // Getter & Setter for teacherName
+    public String getTeacherName() {
+        return teacherName;
+    }
+
+    public void setTeacherName(String teacherName) {
+        this.teacherName = teacherName;
+    }
+
+    // Getter & Setter for subject
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    // Getter & Setter for salary
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+}
+
+class Tester {
+    public static void main(String[] args) {
+
+        // Creating objects
+        Teacher t1 = new Teacher("Alex", "Java Fundamentals", 1200);
+        Teacher t2 = new Teacher("John", "RDBMS", 800);
+        Teacher t3 = new Teacher("Sam", "Networking", 900);
+        Teacher t4 = new Teacher("Maria", "Python", 900);
+
+        // Array of objects
+        Teacher[] teachers = {t1, t2, t3, t4};
+
+        // Display details
+        for (Teacher t : teachers) {
+            System.out.println("Name : " + t.getTeacherName() +
+                               ", Subject : " + t.getSubject() +
+                               ", Salary : " + t.getSalary());
+        }
+    }
+}
