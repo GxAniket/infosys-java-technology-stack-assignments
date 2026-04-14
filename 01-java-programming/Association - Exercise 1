@@ -1,0 +1,61 @@
+class CabServiceProvider {
+
+    private String cabServiceName;
+    private int totalCabs;
+
+    public CabServiceProvider(String cabServiceName, int totalCabs) {
+        this.cabServiceName = cabServiceName;
+        this.totalCabs = totalCabs;
+    }
+
+    public String getCabServiceName() {
+        return cabServiceName;
+    }
+
+    public void setCabServiceName(String cabServiceName) {
+        this.cabServiceName = cabServiceName;
+    }
+
+    public int getTotalCabs() {
+        return totalCabs;
+    }
+
+    public void setTotalCabs(int totalCabs) {
+        this.totalCabs = totalCabs;
+    }
+
+    public double calculateRewardPrice(Driver driver) {
+
+        if (driver == null) return 0;
+
+        float rating = driver.getAverageRating();
+        double bonus = 0;
+
+        if (rating < 4.0f) return 0;
+
+        // 🔥 Case-sensitive check (IMPORTANT)
+        if (cabServiceName.equals("Halo")) {
+
+            if (rating >= 4.5f && rating <= 5.0f) {
+                bonus = rating * 10;
+            } 
+            else if (rating >= 4.0f && rating < 4.5f) {
+                bonus = rating * 5;
+            }
+
+        } else if (cabServiceName.equals("Aber")) {
+
+            if (rating >= 4.5f && rating <= 5.0f) {
+                bonus = rating * 8;
+            } 
+            else if (rating >= 4.0f && rating < 4.5f) {
+                bonus = rating * 3;
+            }
+        } 
+        else {
+            return 0; // invalid cab service
+        }
+
+        return Math.round(bonus * 100.0) / 100.0;
+    }
+}
