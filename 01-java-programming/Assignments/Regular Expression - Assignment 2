@@ -1,0 +1,40 @@
+Problem Statement
+Validate the web address based on the below conditions using regular expression in the checkWebAddressValidity() method.
+
+The web address should start with http or https
+
+http or https should be followed by ://
+
+The web address may have 'www.'
+
+The web address can be alphanumeric
+
+After . (except the . after www), the web address should contain either "com" or "org" or "net"
+
+Return true if the web address is valid, else return false.
+
+ 
+
+Test the functionalities using the main method of the Tester class.
+
+
+class Tester {
+
+    public static boolean checkWebAddressValidity(String webAddress) {
+        // Regex pattern to validate the web address based on all conditions
+        String regex = "^https?://(www\\.)?[a-zA-Z0-9]+\\.(com|org|net)$";
+        
+        // The matches() method automatically checks the string against the regex
+        return webAddress != null && webAddress.matches(regex);
+    }
+    
+    public static void main(String[] args) {
+        // Sample Input 1
+        String webAddress1 = "http://www.company.com";
+        System.out.println("The web address is " + (checkWebAddressValidity(webAddress1) ? "valid!" : "invalid!"));      
+        
+        // Sample Input 2
+        String webAddress2 = "https://company.in";
+        System.out.println("The web address is " + (checkWebAddressValidity(webAddress2) ? "valid!" : "invalid!"));   
+    }
+}
