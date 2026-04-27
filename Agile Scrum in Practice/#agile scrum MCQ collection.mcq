@@ -1,0 +1,174 @@
+📘 Agile Scrum MCQs (With Answers)
+Q1. Which of the following statements are TRUE with respect to sprint backlog?
+
+A) For sprint backlog creation, user stories are broken down into tasks
+B) The sprint backlog cannot be changed once the sprint has started
+C) The sprint backlog is a living artifact and is updated on a daily basis
+D) Tasks not completed are always moved to next sprint backlog
+
+Answer: ✅ A and C
+
+Q2. A developer cannot proceed due to missing library. What is the correct action?
+
+A) Product Owner resolves it
+B) Download free version
+C) Assign task to someone else
+D) Scrum Master resolves impediment
+
+Answer: ✅ Scrum Master resolves impediment
+
+Q3. Benefits of dividing user stories into tasks
+
+A) Clarifies work
+B) Better estimation
+C) Enables parallel work
+D) Task story points are summed for story
+
+Answer: ✅ A, B and C
+
+Q4. TDD issue despite good coverage
+
+A) Not enough test cases
+B) No framework
+C) Test cases not reviewed
+D) Lack of refactoring
+
+Answer: ✅ Not paid adequate attention to refactoring
+
+Q5. Who decides sprint workload?
+
+A) Scrum Master
+B) Product Owner + Scrum Master
+C) Product Owner + Team
+D) Development Team
+
+Answer: ✅ Development Team
+
+Q6. Best practices for distributed Scrum
+
+A) PO close to client
+B) Common Scrum Master for multiple teams
+C) Use online tools
+D) Respect time zones
+
+Answer: ✅ A, C and D
+
+Q7. Any member can write user stories?
+
+A) True
+B) False
+
+Answer: ✅ True
+
+Q8. Agile adoption changes
+
+A) Identify Scrum Master
+B) Iterative delivery
+C) Remove documentation
+D) Test automation
+
+Answer: ✅ A, B and D
+
+Q9. Choose INCORRECT statements
+
+A) Longer sprint if priorities change often
+B) PO decides sprint length
+C) Sprint duration should remain constant
+D) Shorter sprints give faster feedback
+
+Answer: ✅ A and B
+
+Q10. Potentially shippable increment
+
+A) Product Backlog
+B) Architecture document
+C) Prototype implementation
+D) Test plan
+
+Answer: ✅ Prototype Implementation
+
+Q11. Final decision on release scope & date
+
+A) Team
+B) Scrum Master
+C) Product Owner
+D) CEO
+
+Answer: ✅ Product Owner
+
+Q12. Estimation issue
+
+A) Estimation done early
+B) All team not involved
+C) External review needed
+D) Use story points instead of man-days
+
+Answer: ✅ B and D
+
+Q13. Capacity calculation
+Team: 8 members
+10 days, 6 hrs/day
+1 member vacation (5 days)
+2 members training (2.5 days each)
+
+Answer: ✅ 420 hours
+
+Q14. Velocity calculation
+U1 = 3 (done)
+U2 = 3 (done)
+U3 = 5 (incomplete)
+
+Answer: ✅ 6
+
+Q15. FALSE statement about backlog prioritization
+
+A) Continuous prioritization
+B) Priority fixed in sprint
+C) Incomplete story keeps same priority
+D) PO finalizes priority
+
+Answer: ✅ Incomplete story keeps same priority
+
+Q16. Story points calculation
+Velocity = 40
+22 weeks → 11 sprints
+1 pre-release sprint
+25% buffer
+
+Answer: ✅ 320
+
+Q17. Daily Scrum issues
+
+A) Bad timing
+B) Long discussions
+C) 15 min meeting
+D) Status updates
+
+Answer: ✅ A and B
+
+Q18. Correct statement about user stories
+
+A) 3 C’s (Card, Conversation, Confirmation)
+B) IEEE format
+C) Takes multiple sprints
+D) Uses function points
+
+Answer: ✅ 3 C’s
+
+Q19. NOT focus of retrospective
+
+A) Continue
+B) Start
+C) Product features
+D) Stop
+
+Answer: ✅ Product features
+
+Q20. Agile vs Waterfall benefits
+
+A) Easy changes
+B) Fixed requirements
+C) Early testing
+D) Big bang delivery
+
+Answer: ✅ A and C
