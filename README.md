@@ -47,7 +47,7 @@ infosys-java-technology-stack-assignments/
 - Database Management System (Part 1 & 2)  
 - Introduction to NoSQL Databases  
 - Software Engineering & Agile Development  
-- Java Foundation Certification  
+- Java Foundation Certification - TEST EXAM  
 - Agile Scrum in Practice  
 - Data Structures & Algorithms using Java  
 
